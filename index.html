@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gururaj KL</title>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="circle-cropped (1).png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Menu Overlay -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- Menu Items -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="#">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Menu Bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+
+  <!-- Sections -->
+  <section id="home"><a href="https://github.com/gururajkl" target="_blank">Gururaj Kl</a>
+    <h1 class="text-typing">Hey there, i'm Gururaj.</h1>
+  </section>
+  <section id="about">
+    <h1 data-aos="fade-right" data-aos-duration="3000">Currently pursuing my UG in <a class="rrce-tag"
+        href="https://www.rrce.org/" target="_blank">RRCE</a>, Love to code, Love to learn more things. </h1>
+  </section>
+
+  <section id="skills">
+    <h1 data-aos="zoom-in">These Are My Strengths <br> <br>
+      <span data-aos="fade-right">
+        <i class="fab fa-html5 fa-2x"></i>
+        <i class="fab fa-css3-alt fa-2x"></i>
+        <i class="fab fa-java fa-2x"></i>
+        <i class="fab fa-python fa-2x"></i>
+        <i class="fab fa-js-square fa-2x"></i>
+        <i class="fab fa-sass fa-2x"></i>
+        <i class="fab fa-node-js fa-2x"></i>
+      </span>
+      <br> <br> and so on...
+    </h1>
+  </section>
+
+  <section id="projects">
+    <h1 data-aos="zoom-out-up"> <span
+        style="border-bottom: 2px solid white; text-align: center; margin-left: 140px;">Projects</span> <br> <br>
+      <a class="pro-link" href="https://gururajkl.github.io/2048" target="_blank">2048 Game with
+        Dark Mode</a> <br> <br>
+      <a class="pro-link" href="https://gururajkl.github.io/infinite-scroll " target="_blank">infinite-scroll</a> <br>
+      <br>
+      <a class="pro-link" href="https://gururajkl.github.io/pen" target="_blank">Pen Editor</a> <br> <br>
+      <span style="text-transform:lowercase;"> And Many More to Come!...</span>
+    </h1>
+  </section>
+
+  <section id="contact">
+    <h1 data-aos="fade-down" style="word-spacing: 1cm;">
+      <a class="a-profile" href="https://github.com/gururajkl" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+      <a class="a-profile" href="https://www.linkedin.com/in/gururaj-kl-33363b188/" target="_blank"><i
+          class="fab fa-linkedin fa-5x"></i></a>
+      <a class="a-profile" href="https://www.facebook.com/gururaj.ragavendra" target="_blank"><i
+          class="fab fa-facebook fa-5x"></i></a>
+      <a class="a-profile" href="https://www.instagram.com/gururajstagram/" target="_blank"><i
+          class="fab fa-instagram fa-5x"></i></a>
+    </h1>
+  </section>
+  <!-- Script -->
+  <script src="script.js"></script>
+  <!-- AOS.js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 200, // values from 0 to 3000, with step 50ms
+      duration: 1500, // values from 0 to 3000, with step 50ms
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling 
+    });
+  </script>
+</body>
+
+</html>
