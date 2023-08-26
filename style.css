@@ -9,6 +9,24 @@
   --navColor5: #2c8437;
 }
 
+.profile-image {
+  margin-right: 1rem; /* Add margin to separate the image from text */
+  display: flex;
+  align-items: flex-start; /* Align image to the top */
+}
+
+.profile-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Makes the image round */
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+}
+
 html {
   box-sizing: border-box;
 }
@@ -313,6 +331,19 @@ section#home a {
   padding-bottom: 5px;
   color: var(--primaryColor);
   border-bottom: 1px solid var(--primaryColor);
+}
+
+button {
+  position: absolute;
+  top: 2.5rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 section#about {
